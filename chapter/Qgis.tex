@@ -272,6 +272,33 @@ Pilih Field Name untuk pemberian label
 Klik OK maka peta akan muncul dengan label
 \end{enumerate}
 
+\subsection{Fitur Dasar Quantum GIS Dalam Pengelolaan Data Vektor dan Raster}
+Sebagai perangkat lunak Sistem Informasi Geografik, Quantum GIS memiliki kapabilitas untuk menampilkan, mengolah dan menyajikan data. Secara garis besar, Quantum GIS memiliki kemampuan sebagai berikut:
+\begin{enumerate}
+\item
+Membaca dan mengedit data dalam format vektor dan raster, termasuk data atribut
+Quantum GIS dapat membaca dan mengolah data dalam banyak format, baik dalam bentuk raster maupun vektor. Sebagian diantara format data yang bisa diolah Quantum GIS, didukung oleh library GDAL dan OGR. Beberapa format data vektor yang umum digunakan dan bisa diolah Quantum GIS, antara lain: Shapefile, MapInfo Table, S-57, KML, AutoCAD DXF, dll.
+Fitur editing peta vektor, antara lain split, merge/union, vertex editing, pemindahan/drag posisi objek peta, dan sebagainya. Dalam hal editing data raster, fitur dasar Quantum GIS antara lain bisa digunakan untuk clipping, pembuatan kontur, interpolasi grid dan sebagainya
+\item
+Konversi sistem koordinat dan proyeksi peta
+Konversi sistem koordinat dan proyeksi peta dapat dilakukan dengan mudah di Quantum GIS, dengan memilih opsi CRS ketika menyimpan data, seperti gambar berikut:
+\begin{figure}[ht]
+    \centerline{\includegraphics[width=0.25\textwidth]{figures/proyeksi.png}}
+    \caption{Gambar konversi sistem koordinat dan proyeksi peta pada QGIS}
+    \label{proyeksi}
+    \end{figure}
+\item
+Navigasi peta
+Pada Quantum GIS, navigasi peta bisa dilakukan melalui toolbar khusus, dengan fungsi navigasi yang bisa digunakan antara lain: Perbesar (zoom in), Perkecil (zoom out), Penggeseran (pan), Zoom ke layer yang aktif/terpilih, Zoom ke objek yang terseleksi, Zoom ke seluruh tampilan peta, Zoom previous/next, untuk kembali ke tampilan sebelumnya atau sesudahnya.
+\item
+Setting tampilan peta
+Tampilan peta dapat diatur melalui menu Layer > Properties. Hal-hal yang dapat diatur antara lain: warna dan pola arsiran, warna dan ketebalan garis, bentuk dan ukuran simbol, dan sebagainya. Tampilan setting layer seperti berikut:
+\begin{figure}[ht]
+    \centerline{\includegraphics[width=0.25\textwidth]{figures/setting.png}}
+    \caption{Gambar setting tampilan peta pada QGIS}
+    \label{setting}
+    \end{figure}
+\end{enumerate}
 
 \subsection{Menambahkan Data Vektor}
 \begin{enumerate}
